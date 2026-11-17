@@ -1,10 +1,10 @@
 {
-  "version": "0.5.2",
-  "version_label": "0.5.2 BETA",
-  "date": "2026-11-14",
+  "version": "0.5.3",
+  "version_label": "0.5.3 BETA",
+  "date": "2026-11-16",
   "url": "https://github.com/liralflsti-wq/r36s-port-hub-catalogo/releases/latest/download/R36S-PORT-HUB-update.zip",
-  "size": 11344290,
-  "sha256": "43c38dc6c3de13feced0d7ca61bf39af910ddf54c61ec271d48d89d8cdefb624",
+  "size": 11343090,
+  "sha256": "4f5b924ad8a4d24b2a8f8eab279e1d7a549041d6090de0fa26fb1d703b1d5818",
   "min_version": "0.4",
-  "notes": "Neon Grid em painel verde, Tema Padrão de volta, teste de controles ao vivo, Reportar problema, selo NOVO, aparelho detectado e backup dos saves.\n* Tema Padrão (o original do hub) volta a ser o tema inicial e o de Restaurar aparência; quem já escolheu outro tema continua com ele.\n* Neon Grid Edition repaginado: painel gamer escuro em verde com Guia Rápido (ports recentes e atalhos), cartão Continuar jogo, blocos grandes e listas de ports em grade de capas.\n* Teste de controles ao vivo: abre direto no desenho do controle, com botões acendendo, analógicos (posição, alcance, deriva) e dados brutos. Segure SELECT + START para voltar; L1 + R1 abre o teste completo com relatório.\n* Reportar problema (Configurações > Diagnóstico e suporte): cria um arquivo só com aparelho, sistema, diagnóstico e últimos erros, sem senhas, para mandar no grupo do Telegram.\n* Selo NOVO nos ports adicionados ao catálogo nos últimos 7 dias.\n* Informações do Console mostram o aparelho detectado (modelo e placa) e a tela real.\n* RAM corrigida: o R36S original (1 GB) aparece com cerca de 975 MB visíveis no sistema, o que é normal.\n* Backup dos saves dos ports (Configurações > Backup e restauração > Saves dos ports) e opção de backup antes de remover um port."
+  "notes": "Novo endereço do catálogo e das atualizações, e licença própria do hub.\n* Catálogo de ports e atualizações agora vêm do novo endereço oficial do projeto no GitHub (r36s-port-hub-catalogo). Nada muda no uso: os ports, as capas e o histórico continuam iguais.\n* Nova licença do R36S PORT HUB: uso livre no console e em vídeos; copiar, modificar ou redistribuir precisa de autorização. Veja em Configurações > Sobre > Licenças."
 }
