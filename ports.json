@@ -1,7 +1,7 @@
 {
   "catalog_version": 1,
   "title": "R36S PORT HUB - ports (R36S)",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "categories": [
     {
       "id": "acao",
@@ -669,6 +669,23 @@
       "requires_files": false,
       "featured": false,
       "added": "2026-11-16"
+    },
+    {
+      "id": "asphalt-xtreme",
+      "name": "Asphalt Xtreme",
+      "short": "Corrida off-road com veículos potentes em pistas extremas.",
+      "description": "Port para R36S.\n\nPilote veículos off-road em pistas desafiadoras, faça saltos, derrapagens e use nitro em corridas extremas.\n\nAviso: o R36S PORT HUB não é o desenvolvedor deste jogo nem deste port e não hospeda nenhum arquivo. Apenas organizamos links de download já disponíveis publicamente. Todos os direitos pertencem aos seus criadores e editoras.",
+      "category": "corrida",
+      "section": "games",
+      "version": "1.0",
+      "size_bytes": 1475679873,
+      "size_label": "1.4 GB",
+      "download_url": "https://archive.org/download/asphalt-xtreme_202611/Asphalt%20Xtreme.zip",
+      "cover": "https://archive.org/download/asphalt-xtreme_202611/asphalt-xtreme-cover.png",
+      "author": "Créditos aos autores originais",
+      "requires_files": false,
+      "featured": false,
+      "added": "2026-11-17"
     }
   ]
 }
