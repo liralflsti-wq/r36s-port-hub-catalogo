@@ -1,7 +1,7 @@
 {
   "catalog_version": 1,
   "title": "R36S PORT HUB - ports (R36S)",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "categories": [
     {
       "id": "acao",
@@ -304,9 +304,9 @@
       "category": "luta",
       "section": "games",
       "version": "1.0",
-      "size_bytes": 2469606195,
-      "size_label": "2.3 GB",
-      "download_url": "https://archive.org/download/dragon-ball-z-budokai-tenkaichi-4_202611/Dragon%20Ball%20Z%3A%20Budokai%20Tenkaichi%204.zip",
+      "size_bytes": 1805057101,
+      "size_label": "1.7 GB",
+      "download_url": "https://archive.org/download/dragon-ball-z-budokai-tenkaichi-4_202611/Dragon%20Ball%20Z%20Budokai%20Tenkaichi%204%20.rar",
       "cover": "https://archive.org/download/dragon-ball-z-budokai-tenkaichi-4_202611/dragon-ball-z-budokai-tenkaichi-4-cover.png",
       "author": "Créditos aos autores originais",
       "requires_files": false,
