@@ -1,7 +1,7 @@
 {
   "catalog_version": 1,
   "title": "R36S PORT HUB - ports (R36S)",
-  "updated": "2026-11-18",
+  "updated": "2026-11-20",
   "categories": [
     {
       "id": "acao",
@@ -695,9 +695,9 @@
       "category": "corrida",
       "section": "games",
       "version": "1.0",
-      "size_bytes": 924424302,
-      "size_label": "881.6 MB",
-      "download_url": "https://archive.org/download/horizon-chase/Horizon%20Chase.zip",
+      "size_bytes": 466944427,
+      "size_label": "445.3 MB",
+      "download_url": "https://archive.org/download/horizon-chase/Horizon%20Chase%20-%20Completo%201.2.2.zip",
       "cover": "https://archive.org/download/horizon-chase/horizon-chase-cover.png",
       "author": "Créditos aos autores originais",
       "requires_files": false,
