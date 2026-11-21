@@ -946,6 +946,23 @@
       "requires_files": false,
       "featured": false,
       "added": "2026-11-21"
+    },
+    {
+      "id": "paper-mario",
+      "name": "Paper Mario",
+      "short": "RPG de aventura com Mario em mundo de papel.",
+      "description": "Port para R36S.\n\nMario parte em uma aventura em um mundo feito de papel, com batalhas por turnos e quebra-cabeças.\n\nAviso: o R36S PORT HUB não é o desenvolvedor deste jogo nem deste port e não hospeda nenhum arquivo. Apenas organizamos links de download já disponíveis publicamente. Todos os direitos pertencem aos seus criadores e editoras.",
+      "category": "rpg",
+      "section": "games",
+      "version": "1.0",
+      "size_bytes": 39706490,
+      "size_label": "37.9 MB",
+      "download_url": "https://download938.mediafire.com/4v5quzovnwsgtFmRPxg33VWJTcE6TiEo4MR9IxG1XmXA6dfpQTPlBa5k8ZrR9LYHiPrxizS2YNZhomc0_B9fB46BB_gf98umA6cJ6RbVbpI9gfVs9AUx2qo4XdI17x2YYR8MoT7p4TLfg1pE_m9wIOLTlNn_IV0l8f3BU4hFJuU/9w4m4ktlxswwhiv/Paper+Mario.rar",
+      "cover": "https://download938.mediafire.com/a62g7lo19ylglOl9LtxDMMVgi3FvG9A9dRmncqjKshkKoHDOKCrR1nSWzjAuQSQ0pATyO1poxMI8SBhkMrvdw78DeXyZGXBHrqCkWalSOnhGTNdOtJCW45epzlLjn_SrW_WGyTytomj3wKLCijOQslOmrFnemzPSo2feaEbHbF8hXg/wen6ohtxbw5ccyo/paper-mario-cover.png",
+      "author": "Créditos aos autores originais",
+      "requires_files": false,
+      "featured": false,
+      "added": "2026-11-21"
     }
   ]
 }
