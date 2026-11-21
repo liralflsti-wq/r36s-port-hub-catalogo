@@ -980,6 +980,23 @@
       "requires_files": false,
       "featured": false,
       "added": "2026-11-21"
+    },
+    {
+      "id": "beach-buggy-racing-2",
+      "name": "Beach Buggy Racing 2",
+      "short": "Corrida de karts com power-ups.",
+      "description": "Port para R36S.\n\nCorrida de karts com personagens e power-ups em pistas coloridas.\n\nAviso: o R36S PORT HUB não é o desenvolvedor deste jogo nem deste port e não hospeda nenhum arquivo. Apenas organizamos links de download já disponíveis publicamente. Todos os direitos pertencem aos seus criadores e editoras.",
+      "category": "corrida",
+      "section": "games",
+      "version": "1.0",
+      "size_bytes": 223174548,
+      "size_label": "212.8 MB",
+      "download_url": "https://download1338.mediafire.com/6n52k5tgw53gAR5rJlLwk5j6znB4I-PybRrxen91tLl9bz2SPHc4YZkyedzxKqa_V438oCmGBlRfcADwxLxdbgLWA7HbO4z4tUIGDRMlcs7naPjnKl8SS_g-JgU3MwRfaGNRlwOxmvVtIruD2TK4vhEV0HbLjl5qCyRTOWUNwxVCBw/r7aexr2nvxndm7g/Beach+Buggy+Racing+2.rar",
+      "cover": "https://download1528.mediafire.com/6ibfqodhjulgf3bQTx2MxkMUxISb_hjG18XsL8b2DJi8xAYBwjw3LeFExdt0XZ55j1lbeZGzpSG4P84TClMb2v3Ie-f3otkgnmg46NTpQIIY71Ui4bJiKzztvhUHl1r26sNMfwvsRJOVfcoh7Qxj9YGU5J9zeRETG8wIlzhUez9dlg/5cr96wdti81vmc9/Beach+Buggy+Racing+2.png",
+      "author": "Créditos aos autores originais",
+      "requires_files": false,
+      "featured": false,
+      "added": "2026-11-21"
     }
   ]
 }
