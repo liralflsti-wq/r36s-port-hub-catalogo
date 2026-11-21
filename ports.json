@@ -997,6 +997,23 @@
       "requires_files": false,
       "featured": false,
       "added": "2026-11-21"
+    },
+    {
+      "id": "hollow-knight",
+      "name": "Hollow Knight",
+      "short": "Metroidvania de ação e exploração.",
+      "description": "Port para R36S.\n\nExplore o reino subterrâneo de Hallownest, enfrente insetos e chefes em um metroidvania de ação e exploração.\n\nAviso: o R36S PORT HUB não é o desenvolvedor deste jogo nem deste port e não hospeda nenhum arquivo. Apenas organizamos links de download já disponíveis publicamente. Todos os direitos pertencem aos seus criadores e editoras.",
+      "category": "acao",
+      "section": "games",
+      "version": "1.0",
+      "size_bytes": 348576437,
+      "size_label": "332.4 MB",
+      "download_url": "https://download1500.mediafire.com/k4q4ksni7cqghtEhnQwiX72WWISw7ioC5LOn3zf3IWmZjlSJSYGh4-zdE0AwlBSIYssS5jC-Vw8jHaGLujinLPzUV0Ugtoa2LJPPb0caiQK4m67wxOKe-MyUOUuf3d-rHDAX4QaVcBIAaacjwwufTsyiklwmpmg1s-kyuoyb15R42A/qrdxzcjqoqitbqm/HollowKnight_R36S_PATCH.rar",
+      "cover": "https://download1589.mediafire.com/ufyvvgu9xongDKi_xwkxp0SNES9InQ_w-GjIAQGxDeT5J_ym39djOLJT2pJ5JStdc_B2npY767j6HryNMClZ7QsM_knwYNstEfk8-GloJTcRs1ZWZqZCLopA3Rgt_I3ER8hZwjpJ-YaU0ABLavwiuTkVEma7m7SgX-yI3UwUWnFdtw/irlq1stu3mrkmmc/hollow-knight-cover.png",
+      "author": "Créditos aos autores originais",
+      "requires_files": false,
+      "featured": false,
+      "added": "2026-11-21"
     }
   ]
 }
