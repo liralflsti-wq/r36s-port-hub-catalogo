@@ -911,6 +911,24 @@
       "requires_files": false,
       "featured": false,
       "added": "2026-11-21"
+    },
+    {
+      "id": "scott-pilgrim-ex",
+      "name": "Scott Pilgrim EX",
+      "short": "Beat 'em up com o Scott Pilgrim.",
+      "description": "Port para R36S.\n\nJogo de ação em estilo beat 'em up com o Scott Pilgrim e seus amigos.\n\nObservação: este jogo pode demorar um pouco para iniciar, mas funciona normalmente depois de carregar.\n\nAviso: o R36S PORT HUB não é o desenvolvedor deste jogo nem deste port e não hospeda nenhum arquivo. Apenas organizamos links de download já disponíveis publicamente. Todos os direitos pertencem aos seus criadores e editoras.",
+      "category": "acao",
+      "section": "games",
+      "version": "1.0",
+      "size_bytes": 612103710,
+      "size_label": "583.8 MB",
+      "download_url": "https://archive.org/download/silent-hill-4-the-room.-7z/Scott%20Pilgrim%20EX.rar",
+      "cover": "https://archive.org/download/silent-hill-4-the-room.-7z/scott-pilgrim-ex-cover.png",
+      "author": "Créditos aos autores originais",
+      "requires_files": false,
+      "featured": false,
+      "added": "2026-11-21",
+      "notes": "Pode demorar um pouco para iniciar, mas funciona."
     }
   ]
 }
