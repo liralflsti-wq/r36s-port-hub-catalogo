@@ -1,7 +1,7 @@
 {
   "catalog_version": 1,
   "title": "R36S PORT HUB - ports (R36S)",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "categories": [
     {
       "id": "acao",
@@ -839,6 +839,23 @@
       "requires_files": false,
       "featured": false,
       "added": "2026-11-20"
+    },
+    {
+      "id": "the-legend-of-zelda-the-wind-waker",
+      "name": "The Legend of Zelda: The Wind Waker",
+      "short": "Aventura de navegação e exploração em alto-mar.",
+      "description": "Port para R36S.\n\nNavegue pelos mares, explore ilhas e use a Batuta dos Ventos para controlar o vento nesta aventura de Link.\n\nAviso: o R36S PORT HUB não é o desenvolvedor deste jogo nem deste port e não hospeda nenhum arquivo. Apenas organizamos links de download já disponíveis publicamente. Todos os direitos pertencem aos seus criadores e editoras.",
+      "category": "aventura",
+      "section": "games",
+      "version": "1.0",
+      "size_bytes": 783262860,
+      "size_label": "747.0 MB",
+      "download_url": "https://archive.org/download/silent-hill-4-the-room.-7z/The%20Legend%20of%20Zelda%20-%20The%20Wind%20Waker.rar",
+      "cover": "https://archive.org/download/silent-hill-4-the-room.-7z/the-legend-of-zelda-the-wind-waker-cover.png",
+      "author": "Créditos aos autores originais",
+      "requires_files": false,
+      "featured": false,
+      "added": "2026-11-21"
     }
   ]
 }
