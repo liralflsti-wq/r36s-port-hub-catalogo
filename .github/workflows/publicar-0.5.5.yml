@@ -1,0 +1,53 @@
+# Publica a 0.5.5 BETA do R36S PORT HUB no dia 30/11/2026 as 12:00 (Brasilia).
+# Pega os pacotes do ramo release-0.5.5, cria a Release v0.5.5 (a "latest",
+# de onde os consoles baixam o update), troca o update.json do main e depois
+# apaga o ramo e este proprio arquivo. Se rodar de novo, nao faz nada.
+name: Publicar 0.5.5 BETA
+on:
+  schedule:
+    - cron: "0 15 30 11 *"   # 15:00 UTC = 12:00 em Brasilia
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Conferir data e se ja foi publicada
+        id: chk
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          hoje=$(TZ=America/Sao_Paulo date +%Y%m%d)
+          if [ "$hoje" -lt 20261130 ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
+            echo "Ainda nao e dia 30/11/2026."; echo "go=0" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if gh release view v0.5.5 -R "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "A v0.5.5 ja existe."; echo "go=0" >> "$GITHUB_OUTPUT"; exit 0; fi
+          echo "go=1" >> "$GITHUB_OUTPUT"
+      - name: Baixar os pacotes do ramo release-0.5.5
+        if: steps.chk.outputs.go == '1'
+        uses: actions/checkout@v4
+        with:
+          ref: release-0.5.5
+          path: rel
+      - name: Criar a Release v0.5.5
+        if: steps.chk.outputs.go == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd rel/release-0.5.5
+          gh release create v0.5.5 -R "$GITHUB_REPOSITORY" --target main --latest \
+            --title "R36S PORT HUB 0.5.5 BETA" --notes-file NOTAS.md \
+            R36S-PORT-HUB-update.zip R36S-PORT-HUB.zip
+      - name: Atualizar o update.json do main e limpar
+        if: steps.chk.outputs.go == '1'
+        run: |
+          git clone --depth 1 "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" main
+          cp rel/release-0.5.5/update.json main/update.json
+          cd main
+          git rm -q --ignore-unmatch .github/workflows/publicar-0.5.5.yml
+          git add update.json
+          git -c user.name="R36S PORT HUB" -c user.email="r36s-port-hub@users.noreply.github.com" \
+            commit -m "Atualização 0.5.5 BETA (update.json)"
+          git push origin HEAD:main
+          git push origin --delete release-0.5.5 || true
